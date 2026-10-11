@@ -236,7 +236,7 @@
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Participant_Tool_di" bpmnElement="Participant_Tool" isHorizontal="true">
-        <dc:Bounds x="160" y="180" width="1780" height="500" />
+        <dc:Bounds x="160" y="270" width="1780" height="410" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="StartEvent_Tool_di" bpmnElement="StartEvent_Tool">
         <dc:Bounds x="212" y="442" width="36" height="36" />
@@ -302,6 +302,10 @@
         <di:waypoint x="248" y="460" />
         <di:waypoint x="290" y="460" />
       </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_t17_di" bpmnElement="Flow_t17">
+        <di:waypoint x="1790" y="460" />
+        <di:waypoint x="1820" y="460" />
+      </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Flow_t2_di" bpmnElement="Flow_t2">
         <di:waypoint x="390" y="460" />
         <di:waypoint x="410" y="460" />
@@ -357,15 +361,6 @@
           <dc:Bounds x="1258" y="390" width="18" height="14" />
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="Flow_t13_di" bpmnElement="Flow_t13">
-        <di:waypoint x="1410" y="350" />
-        <di:waypoint x="1440" y="350" />
-      </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="Flow_t14_di" bpmnElement="Flow_t14">
-        <di:waypoint x="1540" y="350" />
-        <di:waypoint x="1600" y="350" />
-        <di:waypoint x="1600" y="420" />
-      </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Flow_t15_di" bpmnElement="Flow_t15">
         <di:waypoint x="1275" y="460" />
         <di:waypoint x="1570" y="460" />
@@ -373,13 +368,22 @@
           <dc:Bounds x="1286" y="442" width="13" height="14" />
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_t14_di" bpmnElement="Flow_t14">
+        <di:waypoint x="1540" y="350" />
+        <di:waypoint x="1600" y="350" />
+        <di:waypoint x="1600" y="420" />
+      </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Flow_t16_di" bpmnElement="Flow_t16">
         <di:waypoint x="1670" y="460" />
         <di:waypoint x="1690" y="460" />
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="Flow_t17_di" bpmnElement="Flow_t17">
-        <di:waypoint x="1790" y="460" />
-        <di:waypoint x="1820" y="460" />
+      <bpmndi:BPMNEdge id="Flow_t13_di" bpmnElement="Flow_t13">
+        <di:waypoint x="1410" y="350" />
+        <di:waypoint x="1440" y="350" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Association_Validation_di" bpmnElement="Association_Validation">
+        <di:waypoint x="920" y="240" />
+        <di:waypoint x="920" y="435" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNShape id="Participant_Info_di" bpmnElement="Participant_Info" isHorizontal="true">
         <dc:Bounds x="160" y="680" width="1780" height="180" />
@@ -477,10 +481,6 @@
       <bpmndi:BPMNEdge id="MessageFlow_Issues_di" bpmnElement="MessageFlow_Issues">
         <di:waypoint x="920" y="620" />
         <di:waypoint x="920" y="720" />
-      </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="Association_Validation_di" bpmnElement="Association_Validation">
-        <di:waypoint x="920" y="240" />
-        <di:waypoint x="920" y="435" />
       </bpmndi:BPMNEdge>
     </bpmndi:BPMNPlane>
   </bpmndi:BPMNDiagram>
